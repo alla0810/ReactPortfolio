@@ -1,0 +1,19 @@
+.contact_form {
+    margin: 20px;
+}
+
+.contact_input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50em;
+    margin-left: 5px;
+}
+
+.contact_message {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50em;
+    height: 30vh;
+}

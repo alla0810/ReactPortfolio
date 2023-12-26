@@ -48,7 +48,7 @@ export default function Contact() {
         Message:
         <br></br>        
         <input className="contact_message" value={message} name="message" onChange={handleInputChange} type="text" placeholder=""/>
-        <button type="submit">
+        <button className="contact_button" type="submit">
           Submit
         </button>
       </form>

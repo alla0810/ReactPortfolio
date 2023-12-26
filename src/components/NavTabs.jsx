@@ -11,7 +11,7 @@ function NavTabs() {
       <h1 className="nav_name">
         {'KyoSook Shin'}
       </h1>
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs nav_tab_margin">
       <li className="nav-item">
         <Link
           to="/About"

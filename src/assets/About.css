@@ -1,0 +1,10 @@
+.about_img {
+    flex-shrink: 1;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    overflow: auto;
+    margin: 5px;
+}

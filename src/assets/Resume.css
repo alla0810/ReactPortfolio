@@ -1,7 +1,24 @@
 .resume_img {
-    width: 50px;
+    width: 100px;
 
     overflow: auto;
     margin-left: 20px;
 }
 
+.resume_edu_img {
+    width: 40px;
+
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.resume_exp_img {
+    width: 70px;
+
+    overflow: auto;
+    margin-left: 20px;
+}
+
+.resume_exp {
+    margin-left: 40px;
+}

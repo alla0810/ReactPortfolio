@@ -2,9 +2,18 @@ import Container from './UI/Container';
 import Row from './UI/Row';
 import Col from './UI/Col';
 import Card from './UI/Card';
-import ProjectList from './ProjectList';
+import '../assets/Portfolio.css';
+
+
 
 const Projects = [
+  {
+    id: 0,
+    name: "JATE (Just Another Text Editor)",
+    description: "Developed installable/cacheable application based on Webpack",
+    image: "../../images/jate.png",
+    url: "https://j-a-t-e-8d4l.onrender.com/"
+  },
   {
     id: 1,
     name: "ProPlanForge Group Project",
@@ -60,19 +69,90 @@ const Projects = [
     description: "Dynamically Updated HTML and CSS using javaScript",
     image: "../../images/code_quiz.gif",
     url: "https://alla0810.github.io/javascriptQuiz/"
-  },  
-
+  },      
 ]
 
+
+const handleHover = (evt) => {
+//  console.log("hovering: ", evt);
+
+  console.log("evt.target: ", evt.target);
+  const target_image = evt.target.src.split('/');
+  console.log(target_image);
+
+  const target_image_name = target_image[target_image.length-1];
+  console.log(target_image_name);
+
+  const entry = Projects.filter(element => element.image.includes(target_image_name));
+  console.log(entry[0]);
+
+  const id = "id" + entry[0].id.toString();
+  console.log(id);
+
+  evt.target.textContent = entry[0].name;
+
+  const PortEl = document.getElementById(id);
+  PortEl.setAttribute("class", "opacity_30");
+}
+
+const handleLeave = (evt) => {
+  console.log("evt.target: ", evt.target);
+  const target_image = evt.target.src.split('/');
+  console.log(target_image);
+
+  const target_image_name = target_image[target_image.length-1];
+  console.log(target_image_name);
+
+  const entry = Projects.filter(element => element.image.includes(target_image_name));
+  console.log(entry[0]);
+
+  const id = "id" + entry[0].id.toString();
+  console.log(id);
+
+  evt.target.textContent = entry[0].name;
+
+  const PortEl = document.getElementById(id);
+  PortEl.setAttribute("class", "portfolio_img");  
+}
+    
 
 export default function Portfolio() {
   return (
     <Container>
       <Row>
-        <Col size="md-6">
-          <Card>
-            <ProjectList projects={Projects}/>
-          </Card>
+        <Col size="md-4">
+            <Card  >     
+              <img id = "id0" className="portfolio_img" src={Projects[0].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/> 
+            </Card>              
+            <Card  >                            
+              <img id = "id1" className="portfolio_img" src={Projects[1].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>       
+            </Card>              
+            <Card  >                            
+              <img id = "id2" className="portfolio_img" src={Projects[2].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>       
+            </Card>              
+        </Col>
+        <Col size="md-4">
+            <Card  >                            
+              <img id = "id3" className="portfolio_img" src={Projects[3].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+            <Card  >                            
+              <img id = "id4"  className="portfolio_img" src={Projects[4].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+            <Card  >                            
+              <img id = "id5" className="portfolio_img" src={Projects[5].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+        </Col>
+        <Col size="md-4">
+            <Card  >                            
+              <img id = "id6" className="portfolio_img" src={Projects[6].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+            <Card  >                            
+              <img id = "id7" className="portfolio_img" src={Projects[7].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+            <Card  >                            
+              <img id = "id8" className="portfolio_img" src={Projects[8].image} onMouseEnter={handleHover} onMouseLeave={handleLeave}/>              
+            </Card>              
+
         </Col>
       </Row>
     </Container>

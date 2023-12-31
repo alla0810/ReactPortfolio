@@ -100,7 +100,7 @@ export default function Contact() {
         <div>
           <p className="user-text">{userMessage}
           </p>
-          <img className= "thank-img" src="../../images/thank.jpg"/>
+          <img className= "thank-img" src="./images/thank.jpg"/>
         </div>
       )}
     </Container>

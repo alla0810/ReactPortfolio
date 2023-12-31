@@ -35,7 +35,7 @@ export default function Resume() {
       <a href = "https://www.samsung.com/us/about-us/our-business/it-and-mobile-communications/"><img src="../../images/samsung.jpg" className = "resume_exp_img"/></a> Samsung Electronics (2002 - 2012) Senior Software Engineer
       <div className = "resume_exp">
       <li>Software System Engineering</li>
-      <li>WCDMA/HSDPA Modem Software Development</li>
+      <li>WCDMA/HSDPA Modem Software/Firmware Development</li>
       </div>
       <br></br>
 

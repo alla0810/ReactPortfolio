@@ -16,6 +16,8 @@ export default function Contact() {
     if (inputType === 'email')
     {
       setEmail(inputValue);
+
+      
     }
     else if (inputType === 'name')
     {
@@ -31,6 +33,7 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    handleInputChange(e);
   }
 
 

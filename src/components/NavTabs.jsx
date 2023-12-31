@@ -8,9 +8,9 @@ function NavTabs() {
 
   return (
     <nav className="nav_background">
-      <h1 className="nav_name">
-        {'KyoSook Shin'}
-      </h1>
+      <div >
+        <Link to="/About" className="nav_name">{'KyoSook Shin'}</Link>
+      </div>
     <ul className="nav nav-tabs nav_tab_margin">
       <li className="nav-item">
         <Link

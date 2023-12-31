@@ -8,10 +8,10 @@ function NavTabs() {
 
   return (
     <nav className="nav_background">
-      <div >
+      <ul className="nav nav-item">
         <Link to="/About" className="nav_name">{'KyoSook Shin'}</Link>
-      </div>
-    <ul className="nav nav-tabs nav_tab_margin">
+      </ul>
+    <ul className="nav  nav_tab_margin">
       <li className="nav-item">
         <Link
           to="/About"
@@ -52,6 +52,7 @@ function NavTabs() {
       </li>
     </ul>
     </nav>
+
   );
 }
 

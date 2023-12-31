@@ -1,8 +1,10 @@
+import Container from './UI/Container';
+
 import '../assets/Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <Container>
       <h1> Resume
       <a href = "../../files/KyoSook Shin_ Resume2023 v5.pdf"><img src="../../images/download.jpg" className="resume_img"/></a>      
       </h1> 
@@ -19,7 +21,7 @@ export default function Resume() {
       <li>Full SDLC (Software Development Life Cycle):  from requirement analysis, testcase automation, unit test and integration test, up to high level analysis, detailed level analysis, implementation, testing, delivery, deployment, and on-site maintenance</li>
       <li>C/C++/C#, ARM/PowerPC Assembler, Python</li>      
       <li>CPU/MCU Control on ARM, PowerPC, Raspberry Pi, Beagle bone, Atmel</li>
-      <li>Baremetal BSP(Board Support Package), Kernel innitialization, IRQ, OS Porting/integration</li>
+      <li>Baremetal BSP(Board Support Package), Kernel innitialization, Device Driver, IRQ, OS Porting/integration</li>
       <li>Wired/Wireless Protocol Development: ATM/TCP/IP/Frame Relay/Circuit voice/packet, WCDMA/HSDPA control/user plane</li>
       <li>Embedded OS: Linux/Ubuntu, Necleus, VxWorks, No OS</li>
 
@@ -58,6 +60,6 @@ export default function Resume() {
       <br></br>                  
       <br></br>     
       <br></br>                               
-    </div>
+    </Container>
   );
 }

@@ -4,9 +4,14 @@
     justify-content: center;
     align-items: center;
 
-    width: 100px;
+    width: 18vh;
+
     overflow: auto;
-    margin: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border-color: #bbcfe1;
+    box-shadow: 4px 4px #bbcfe1;        
 }
 
 .about_row_container {
@@ -15,17 +20,26 @@
     justify-content: center;
 
     width: 100%;
+
     text-align: center;
+    margin-top: 20px;
 }
 
 .footer_img {
-    flex-shrink: 1;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-
     width: 50px;
     height: 50px;
-    overflow: auto;
     margin: 5px;
+}
+
+.margin-20 {
+
+    margin-top: 20px;
+    margin-right:20px;
+}
+.about-me {
+    background-color: #dbeaf8;
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-right:20px;
 }

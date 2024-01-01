@@ -62,8 +62,8 @@ After downloading from GitHub, you can run this program on your local machine by
 
 ## Screenshot  
 
-<img src='./images/screen1.png' width="800">  
-<img src='./images/screen2.png' width="800">
-<img src='./images/screen3.png' width="800">  
-<img src='./images/screen4.png' width="800">  
+<img src='./public/assets/images/screen1.png' width="800">  
+<img src='./public/assets/images/screen2.png' width="800">
+<img src='./public/assets/images/screen3.png' width="800">  
+<img src='./public/assets/images/screen4.png' width="800">  
 

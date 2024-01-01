@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <Container>
       <h1> Resume
-      <a href = "/assets/files/KyoSook Shin_ Resume2023 v5.pdf"><img src="/assets/images/download.jpg" className="resume_img"/></a>      
+      <a href = "/assets/files/KyoSook Shin.pdf"><img src="/assets/images/download.jpg" className="resume_img"/></a>      
       </h1> 
       <p>
       </p>

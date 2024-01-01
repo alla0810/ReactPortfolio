@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <Container>
       <h1> Resume
-      <a href = "../../files/KyoSook Shin_ Resume2023 v5.pdf"><img src="../../images/download.jpg" className="resume_img"/></a>      
+      <a href = "/assets/files/KyoSook Shin_ Resume2023 v5.pdf"><img src="/assets/images/download.jpg" className="resume_img"/></a>      
       </h1> 
       <p>
       </p>
@@ -28,13 +28,13 @@ export default function Resume() {
       <br></br>
 
       <h4>Experience</h4>
-      <a href = "https://www.dimedi.co.kr/"><img src="../../images/dimedi.png" className = "resume_exp_img"/></a> Dimedi Korea (June 2013 - Aug 2014) Senior Software Engineer
+      <a href = "https://www.dimedi.co.kr/"><img src="/assets/images/dimedi.png" className = "resume_exp_img"/></a> Dimedi Korea (June 2013 - Aug 2014) Senior Software Engineer
       <div className = "resume_exp">
       <li>Dicom PACS Software Development</li>
       <li>Medical Gamma Camera Software/Firmware Development</li>
       </div>
 
-      <a href = "https://www.samsung.com/us/about-us/our-business/it-and-mobile-communications/"><img src="../../images/samsung.jpg" className = "resume_exp_img"/></a> Samsung Electronics (2002 - 2012) Senior Software Engineer
+      <a href = "https://www.samsung.com/us/about-us/our-business/it-and-mobile-communications/"><img src="/assets/images/samsung.jpg" className = "resume_exp_img"/></a> Samsung Electronics (2002 - 2012) Senior Software Engineer
       <div className = "resume_exp">
       <li>Software System Engineering</li>
       <li>WCDMA/HSDPA Modem Software/Firmware Development</li>
@@ -43,20 +43,20 @@ export default function Resume() {
 
 
       <h4>Education</h4>
-      <a href = "https://techbootcamps.utexas.edu/coding/"><img src="../../images/bootcamp.png" className = "resume_edu_img"/></a> UT Austin Boot Camp (Jul 2023 - Jan 2024) Web Programming
+      <a href = "https://techbootcamps.utexas.edu/coding/"><img src="/assets/images/bootcamp.png" className = "resume_edu_img"/></a> UT Austin Boot Camp (Jul 2023 - Jan 2024) Web Programming
 
       <br></br>
-      <a href = "https://www.austincc.edu/"><img src="../../images/acc.jpg" className = "resume_edu_img"/></a> Austin Community College (Jan 2020 - Dec 2023) Associate's degree, Art of Science
+      <a href = "https://www.austincc.edu/"><img src="/assets/images/acc.jpg" className = "resume_edu_img"/></a> Austin Community College (Jan 2020 - Dec 2023) Associate's degree, Art of Science
 
       <br></br>
-      <a href = "https://www.yonsei.ac.kr/en_sc/index.jsp"><img src="../../images/yonsei.jpg" className = "resume_edu_img"/></a> Yonsei University, Bachelor's degree, Electronic Engineering
+      <a href = "https://www.yonsei.ac.kr/en_sc/index.jsp"><img src="/assets/images/yonsei.jpg" className = "resume_edu_img"/></a> Yonsei University, Bachelor's degree, Electronic Engineering
       <br></br>            
       <br></br>
 
       <h4>Certificate</h4>
-      <a href = "https://www.istqb.org/"><img src="../../images/istqb.png" className = "resume_edu_img"/></a> ISTQB Foundation Level (Dec 2011) Test-Driven Development
+      <a href = "https://www.istqb.org/"><img src="/assets/images/istqb.png" className = "resume_edu_img"/></a> ISTQB Foundation Level (Dec 2011) Test-Driven Development
       <br></br>                  
-      <a href = "https://www.sixsigmacouncil.org/lean-six-sigma-master-black-belt-certification/" ><img src="../../images/six-sigma.jpg" className = "resume_edu_img"/></a> Six Sigma Master Black Belt (Dec 2008) Statistical Data Analysis, Lean SDLC
+      <a href = "https://www.sixsigmacouncil.org/lean-six-sigma-master-black-belt-certification/" ><img src="/assets/images/six-sigma.jpg" className = "resume_edu_img"/></a> Six Sigma Master Black Belt (Dec 2008) Statistical Data Analysis, Lean SDLC
       <br></br>                  
       <br></br>     
       <br></br>                               

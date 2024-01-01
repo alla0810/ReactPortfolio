@@ -14,7 +14,7 @@ export default function Portfolio() {
       id: 0,
       name: "JATE Text Editor",
       description: "installable/cacheable PWA(Progressive Web Application) based on Webpack",
-      image: "../../images/jate.png",
+      image: "/assets/images/jate.png",
       url: "https://j-a-t-e-8d4l.onrender.com/",
       repo: "https://github.com/alla0810/pwa-text-editor"
     },
@@ -22,7 +22,7 @@ export default function Portfolio() {
       id: 1,
       name: "ProPlanForge Group Project",
       description: "Project Management Tool, Developed statistics page using Chart.js library",
-      image: "../../images/project2.png",
+      image: "/assets/images/project2.png",
       url: "https://mysterious-sands-89389-6bcd1486e90b.herokuapp.com/stats",
       repo: "https://github.com/whatnameshouldiuse/UTFSB-Project2-Group8"      
     },
@@ -30,7 +30,7 @@ export default function Portfolio() {
       id: 2,
       name: "CMS-style Tech Blog",
       description: "Developed front-end/back-end application using MVC architecture and Sequalize",
-      image: "../../images/tech_blog.png",
+      image: "/assets/images/tech_blog.png",
       url: "https://cool-tech-blog-c417147650ea.herokuapp.com/",
       repo: "https://github.com/alla0810/tech-blog"      
     },  
@@ -38,7 +38,7 @@ export default function Portfolio() {
       id: 3,
       name: "Amazon Navigator Group Project",
       description: "Simple Price/Review Viewer, Developed third-party Amazon API fetch application",
-      image: "../../images/amazon.png",
+      image: "/assets/images/amazon.png",
       url: "https://alla0810.github.io/AmazonNavigator/",
       repo: "https://github.com/alla0810/AmazonNavigator"      
     },  
@@ -46,7 +46,7 @@ export default function Portfolio() {
       id: 4,
       name: "E-commerce Back-End Program",
       description: "Product Management Program using Sequalize ORM based on MySQL database",
-      image: "../../images/e-commerce.gif",
+      image: "/assets/images/e-commerce.gif",
       url: "https://github.com/alla0810/e-commerce",
       repo: "https://github.com/alla0810/e-commerce"      
     },  
@@ -54,7 +54,7 @@ export default function Portfolio() {
       id: 5,
       name: "Note Taker",
       description: "Daily Note Management Program using Express.js Back-End Program",
-      image: "../../images/note-taker.gif",
+      image: "/assets/images/note-taker.gif",
       url: "https://note-taker-for-you-081d407650f3.herokuapp.com/",
       repo: "https://github.com/alla0810/note_taker"      
     },  
@@ -62,7 +62,7 @@ export default function Portfolio() {
       id: 6,
       name: "Weather Dashboard",
       description: "Five Days weather forecast for multiple cities, Server-Side API, Persistent localStorage",
-      image: "../../images/weather_dashboard.png",
+      image: "/assets/images/weather_dashboard.png",
       url: "https://alla0810.github.io/weatherDashboard/",
       repo: "https://github.com/alla0810/weatherDashboard"      
     },  
@@ -70,7 +70,7 @@ export default function Portfolio() {
       id: 7,
       name: "Work Day Scheduler",
       description: "Daily Planner based on Dynamically Updated HTML and CSS using jQuery and Day.js library",
-      image: "../../images/work-scheduler.gif",
+      image: "/assets/images/work-scheduler.gif",
       url: "https://alla0810.github.io/workScheduler/",
       repo: "https://github.com/alla0810/workScheduler"      
     },  
@@ -78,7 +78,7 @@ export default function Portfolio() {
       id: 8,
       name: "Multiple-choice JavaScript Quiz",
       description: "Timed JavaScript Quiz that stores high scores, Dynamically Updated HTML and CSS using javaScript",
-      image: "../../images/code_quiz.gif",
+      image: "/assets/images/code_quiz.gif",
       url: "https://alla0810.github.io/javascriptQuiz/",
       repo: "https://github.com/alla0810/javascriptQuiz"      
     },      
@@ -235,7 +235,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[0].description}
                     </p>
-                    <a href = {Projects[0].repo}><img src="../../images/github.png" className="port_github_img"/></a>                                          
+                    <a href = {Projects[0].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>                                          
                   </div>
                 </div>
               ) : (
@@ -255,7 +255,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[1].description}
                     </p>
-                      <a href = {Projects[1].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[1].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -275,7 +275,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[2].description}
                     </p>
-                      <a href = {Projects[2].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[2].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -298,7 +298,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[3].description}
                     </p>
-                      <a href = {Projects[3].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[3].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -318,7 +318,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[4].description}
                     </p>
-                      <a href = {Projects[4].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[4].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -338,7 +338,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[5].description}
                     </p>
-                      <a href = {Projects[5].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[5].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -361,7 +361,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[6].description}
                     </p>
-                      <a href = {Projects[6].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[6].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -381,7 +381,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[7].description}
                     </p>
-                      <a href = {Projects[7].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[7].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (
@@ -401,7 +401,7 @@ const handleLeave8 = (evt) => {
                     <p >
                       {Projects[8].description}
                     </p>
-                      <a href = {Projects[8].repo}><img src="../../images/github.png" className="port_github_img"/></a>
+                      <a href = {Projects[8].repo}><img src="/assets/images/github.png" className="port_github_img"/></a>
                   </div>                                    
                 </div>
               ) : (

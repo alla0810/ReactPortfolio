@@ -1,7 +1,7 @@
 import Container from './UI/Container';
 
 import {useState} from 'react';
-import '../assets/Contact.css'
+import '../css/Contact.css'
 import { validateEmail } from '../utils/helpers';
 
 var userVisitCnt = 0;

@@ -3,7 +3,7 @@ import Row from './UI/Row';
 import Col from './UI/Col';
 
 
-import '../assets/About.css';
+import '../css/About.css';
 
 export default function About() {
   return (
@@ -15,12 +15,12 @@ export default function About() {
       </Row>
       <Row>        
         <Col size="md-3">
-          <img src="./images/kyosook.png" className = "about_img"/>
+          <img src="/assets/images/kyosook.png" className = "about_img"/>
 
           <div>
-            <a href="mailto:kyosook.shin@gmail.com"><img src="./images/email.png" className="footer_img"/></a>            
-            <a href="https://github.com/alla0810"><img src="./images/github.png" className="footer_img" /></a>
-            <a href="https://www.linkedin.com/in/kyosook-shin/"><img src="./images/linkedin.png" className="footer_img" /></a>
+            <a href="mailto:kyosook.shin@gmail.com"><img src="/assets/images/email.png" className="footer_img"/></a>            
+            <a href="https://github.com/alla0810"><img src="/assets/images/github.png" className="footer_img" /></a>
+            <a href="https://www.linkedin.com/in/kyosook-shin/"><img src="/assets/images/linkedin.png" className="footer_img" /></a>
           </div>
         </Col>        
         <Col size="md-9">

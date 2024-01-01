@@ -2,7 +2,7 @@ import Container from './UI/Container';
 import Row from './UI/Row';
 import Col from './UI/Col';
 import Card from './UI/Card';
-import '../assets/Portfolio.css';
+import '../css/Portfolio.css';
 import { useState } from 'react';
 
    

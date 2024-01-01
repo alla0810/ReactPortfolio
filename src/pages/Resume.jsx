@@ -1,6 +1,6 @@
 import Container from './UI/Container';
 
-import '../assets/Resume.css';
+import '../css/Resume.css';
 
 export default function Resume() {
   return (

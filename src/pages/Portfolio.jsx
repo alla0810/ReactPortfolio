@@ -13,7 +13,7 @@ export default function Portfolio() {
 
     {
       id: 0,
-      name: "QuoteMe",
+      name: "QuoteMe Group Project",
       description: "Quote Generation depending on emotional state, social media to share quotes, personal emotion trace",
       image: "/assets/images/quoteme.png",
       url: "https://quoteme-1b7p.onrender.com/",

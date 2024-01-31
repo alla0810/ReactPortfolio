@@ -10,8 +10,17 @@ import { useState } from 'react';
 export default function Portfolio() {
 
   const Projects = [
+
     {
       id: 0,
+      name: "QuoteMe",
+      description: "Quote Generation depending on emotional state, social media to share quotes, personal emotion trace",
+      image: "/assets/images/quoteme.png",
+      url: "https://quoteme-1b7p.onrender.com/",
+      repo: "https://github.com/charleshuurman/QuoteMe"      
+    },     
+    {
+      id: 1,
       name: "JATE Text Editor",
       description: "installable/cacheable PWA(Progressive Web Application) based on Webpack",
       image: "/assets/images/jate.png",
@@ -19,7 +28,7 @@ export default function Portfolio() {
       repo: "https://github.com/alla0810/pwa-text-editor"
     },
     {
-      id: 1,
+      id: 2,
       name: "ProPlanForge Group Project",
       description: "Project Management Tool, Developed statistics page using Chart.js library",
       image: "/assets/images/project2.png",
@@ -27,7 +36,7 @@ export default function Portfolio() {
       repo: "https://github.com/whatnameshouldiuse/UTFSB-Project2-Group8"      
     },
     {
-      id: 2,
+      id: 3,
       name: "CMS-style Tech Blog",
       description: "Developed front-end/back-end application using MVC architecture and Sequalize",
       image: "/assets/images/tech_blog.png",
@@ -35,20 +44,12 @@ export default function Portfolio() {
       repo: "https://github.com/alla0810/tech-blog"      
     },  
     {
-      id: 3,
+      id: 4,
       name: "Amazon Navigator Group Project",
       description: "Simple Price/Review Viewer, Developed third-party Amazon API fetch application",
       image: "/assets/images/amazon.png",
       url: "https://alla0810.github.io/AmazonNavigator/",
       repo: "https://github.com/alla0810/AmazonNavigator"      
-    },  
-    {
-      id: 4,
-      name: "E-commerce Back-End Program",
-      description: "Product Management Program using Sequalize ORM based on MySQL database",
-      image: "/assets/images/e-commerce.gif",
-      url: "https://github.com/alla0810/e-commerce",
-      repo: "https://github.com/alla0810/e-commerce"      
     },  
     {
       id: 5,
@@ -82,6 +83,15 @@ export default function Portfolio() {
       url: "https://alla0810.github.io/javascriptQuiz/",
       repo: "https://github.com/alla0810/javascriptQuiz"      
     },      
+    {
+      id: 9,
+      name: "E-commerce Back-End Program",
+      description: "Product Management Program using Sequalize ORM based on MySQL database",
+      image: "/assets/images/e-commerce.gif",
+      url: "https://github.com/alla0810/e-commerce",
+      repo: "https://github.com/alla0810/e-commerce"      
+    },  
+
   ]
 
   const [hover0, setHover0] = useState(false);

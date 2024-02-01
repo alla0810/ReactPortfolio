@@ -14,16 +14,6 @@ function NavTabs() {
     <ul className="nav  nav_tab_margin">
       <li className="nav-item">
         <Link
-          to="/About"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link nav_font active' : 'nav-link nav_font'}
-        >
-          About me
-        </Link>
-      </li>
-
-      <li className="nav-item">
-        <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
@@ -32,6 +22,17 @@ function NavTabs() {
           Portfolio
         </Link>
       </li>
+
+      <li className="nav-item">
+        <Link
+          to="/About"
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === '/About' ? 'nav-link nav_font active' : 'nav-link nav_font'}
+        >
+          About me
+        </Link>
+      </li>
+
       <li className="nav-item">
         <Link
           to="/Contact"

@@ -6,7 +6,7 @@
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 50em;
+    width: 100%;
     border-color: #bbcfe1;
     border-width: 1px;
 }
@@ -15,7 +15,7 @@
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 50em;
+    width: 100%;
     height: 30vh;
     border-color: #bbcfe1;    
     border-width: 1px;    

@@ -4,7 +4,7 @@ import Col from './UI/Col';
 import Card from './UI/Card';
 import '../css/Portfolio.css';
 import { useState } from 'react';
-
+import Footer from './../components/Footer'
    
 
 export default function Portfolio() {
@@ -422,6 +422,8 @@ const handleLeave8 = (evt) => {
 
           </Col>                    
       </Row>
+
+      <Footer/>      
     </Container>
   );
 }

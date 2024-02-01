@@ -3,6 +3,7 @@ import Container from './UI/Container';
 import {useState} from 'react';
 import '../css/Contact.css'
 import { validateEmail } from '../utils/helpers';
+import Footer from './../components/Footer'
 
 var userVisitCnt = 0;
 var userVisitObj = [];
@@ -103,6 +104,7 @@ export default function Contact() {
           <img className= "thank-img" src="/assets/images/thank.jpg"/>
         </div>
       )}
+      <Footer/>      
     </Container>
   );
 }

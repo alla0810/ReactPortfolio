@@ -1,6 +1,6 @@
 import Container from './UI/Container';
-
 import '../css/Resume.css';
+import Footer from './../components/Footer'
 
 export default function Resume() {
   return (
@@ -59,7 +59,8 @@ export default function Resume() {
       <a href = "https://www.sixsigmacouncil.org/lean-six-sigma-master-black-belt-certification/" ><img src="/assets/images/six-sigma.jpg" className = "resume_edu_img"/></a> Six Sigma Master Black Belt (Dec 2008) Statistical Data Analysis, Lean SDLC
       <br></br>                  
       <br></br>     
-      <br></br>                               
+      <Footer/>
+
     </Container>
   );
 }

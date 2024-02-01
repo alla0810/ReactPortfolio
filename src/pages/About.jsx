@@ -1,7 +1,7 @@
 import Container from './UI/Container';
 import Row from './UI/Row';
 import Col from './UI/Col';
-
+import Footer from './../components/Footer'
 
 import '../css/About.css';
 
@@ -17,11 +17,11 @@ export default function About() {
         <Col size="md-3">
           <img src="/assets/images/kyosook.png" className = "about_img"/>
 
-          <div>
+          {/* <div>
             <a href="mailto:kyosook.shin@gmail.com"><img src="/assets/images/email.png" className="footer_img"/></a>            
             <a href="https://github.com/alla0810"><img src="/assets/images/github.png" className="footer_img" /></a>
             <a href="https://www.linkedin.com/in/kyosook-shin/"><img src="/assets/images/linkedin.png" className="footer_img" /></a>
-          </div>
+          </div> */}
         </Col>        
         <Col size="md-9">
             <div className="margin-20">          
@@ -35,10 +35,10 @@ export default function About() {
             <div className="margin-20">          
               <p>Embedded Software Engineer / Full-stack Developer / Front-End Develper / Back-End Developer</p>          
             </div>
-
         </Col>
-
       </Row>
+      <br></br>         
+      <Footer/>
     </Container>
   );
 }

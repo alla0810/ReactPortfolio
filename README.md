@@ -57,7 +57,7 @@ After downloading from GitHub, you can run this program on your local machine by
   * Author: Kyosook Shin
   * Author's Email: kyosook.shin@gmail.com  
   * GitHub: https://github.com/alla0810/ReactPortfolio
-  * Deployed: https://portfolio-kyosook.netlify.app/About
+  * Deployed: https://portfolio-kyosook.netlify.app
 
 
 ## Screenshot  

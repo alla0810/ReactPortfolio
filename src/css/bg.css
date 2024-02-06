@@ -1,0 +1,14 @@
+.bottom_bg {
+    display: flex;
+    justify-content: space-between;
+
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+
+    background-image: url("/assets/images/bg_light.jpg");
+    background-size: cover;
+    background-position: bottom;
+}

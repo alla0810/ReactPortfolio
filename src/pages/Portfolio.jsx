@@ -227,7 +227,6 @@ const handleLeave8 = (evt) => {
   return (
     <Container>
       <Row>
-        <h1>Portfolio</h1>     
         <br></br> 
         <br></br>         
       </Row>

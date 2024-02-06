@@ -18,7 +18,8 @@ function App() {
         <title>KyoSook Shin</title>
       </header>
       <Nav />
-      <main className="mx-3">
+      {/* <main className="mx-3"> */}
+      <main>
         <Outlet />
       </main>
 

@@ -4,12 +4,14 @@ import Col from './UI/Col';
 import Footer from './../components/Footer'
 
 import '../css/About.css';
+import '../css/bg.css';
 
 export default function About() {
   return (
+
+    <div>
     <Container>
       <Row>
-        <h1>About me</h1>     
         <br></br> 
         <br></br>         
       </Row>
@@ -35,10 +37,15 @@ export default function About() {
             <div className="margin-20">          
               <p>Embedded Software Engineer  |  Full-stack Developer  |  Front-End Develper  |  Back-End Developer</p>          
             </div>
+
         </Col>
       </Row>
-      <br></br>         
-      <Footer/>
+      <Container>
+        <Footer/>
+      </Container>
     </Container>
+    <div className="bottom_bg">        
+    </div>    
+    </div>    
   );
 }

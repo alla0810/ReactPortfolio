@@ -2,6 +2,7 @@ import Container from './UI/Container';
 
 import {useState} from 'react';
 import '../css/Contact.css'
+import '../css/bg.css';
 import { validateEmail } from '../utils/helpers';
 import Footer from './../components/Footer'
 
@@ -74,8 +75,12 @@ export default function Contact() {
 
 
   return (
+    <div>
     <Container>
-      <h1>Contact</h1>
+      <br></br>
+      <br></br>
+      <h1> Contact Me </h1>
+
       <form onSubmit={handleFormSubmit}>
         Name: 
         <br></br>
@@ -104,7 +109,13 @@ export default function Contact() {
           <img className= "thank-img" src="/assets/images/thank.jpg"/>
         </div>
       )}
-      <Footer/>      
     </Container>
+    <Container>
+        <Footer/>  
+    </Container>                
+
+
+      </div>
+
   );
 }

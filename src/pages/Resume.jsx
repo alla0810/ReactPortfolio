@@ -11,7 +11,7 @@ export default function Resume() {
       <p>
       </p>
        <h4>Web Application Development Skills</h4>
-        <li>Front-End Web Development: HTML, CSS, JavaScript, Web-APIs, JQuery, Third-Party APIs, React</li>
+        <li>Front-End Web Development: HTML, CSS, JavaScript, RESTful-APIs, JQuery, React, Redux</li>
         <li>Back-End Web Development: Node.js, OOP Programming, Test-Driven Development (Jest), Express.js, MVC pattern, MERN stack</li>
         <li>Database: Client-Side Storage (IDB, LocalStorage), SQL, ORM (Sequalize, Mongoose), GraphQL</li>
         <li>Version Control & Resource Management: Git, Gist, Slack </li>

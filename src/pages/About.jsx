@@ -33,7 +33,7 @@ export default function About() {
               Embedded/Web software engineer with 10+ years of experience in various industries.  Enthusiastic in learning, passionate about new technologies, and familiar with complex software development cycles from the very low software layer, middleware, up to the front-end/back-end web applications.
             </div>
             <div className="margin-20">          
-              <p>Embedded Software Engineer / Full-stack Developer / Front-End Develper / Back-End Developer</p>          
+              <p>Embedded Software Engineer | Full-stack Developer | Front-End Develper | Back-End Developer</p>          
             </div>
         </Col>
       </Row>
